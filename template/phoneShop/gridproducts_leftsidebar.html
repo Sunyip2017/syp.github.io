@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dungar - Products Grid Left Sidebar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="static/css/css2.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/animate.min.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.css">
+    <link rel="stylesheet" href="static/css/slick.css">
+    <link rel="stylesheet" href="static/css/chosen.min.css">
+    <link rel="stylesheet" href="static/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="static/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="static/css/lightbox.min.css">
+    <link rel="stylesheet" href="static/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="static/css/jquery.scrollbar.min.css">
+    <link rel="stylesheet" href="static/css/mobile-menu.css">
+    <link rel="stylesheet" href="static/css/flaticon.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="productsgrid-page">
+<header class="header style7">
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <div class="header-message">
+                    欢迎来到我们的商店!
+                </div>
+            </div>
+            <div class="top-bar-right">
+                <div class="header-language">
+                    <div class="dungar-language dungar-dropdown">
+                        <a href="#" class="active language-toggle" data-dungar="dungar-dropdown">
+								<span>
+									Chinese (RMB)
+								</span>
+                        </a>
+                        <ul class="dungar-submenu">
+                            <li class="switcher-option">
+                                <a href="#">
+										<span>
+											English (USD)
+										</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="header-user-links">
+                    <li>
+                        <a href="login.html">登陆 or 注册</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main-header">
+            <div class="row">
+                <div class="col-lg-3 col-sm-4 col-md-3 col-xs-7 col-ts-12 header-element">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="static/picture/logo.png" alt="img">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-sm-8 col-md-6 col-xs-5 col-ts-12">
+                    <div class="block-search-block">
+                        <form class="form-search form-search-width-category">
+                            <div class="form-content">
+                                <div class="category">
+                                    <select title="cate" data-placeholder="全部分类" class="chosen-select" tabindex="1">
+                                        <option value="United States">配件</option>
+                                        <option value="United Kingdom">电视和视频</option>
+                                        <option value="Afghanistan">桌子</option>
+                                        <option value="Aland Islands">沙发</option>
+                                        <option value="Albania">新品</option>
+                                        
+                                    </select>
+                                </div>
+                                <div class="inner">
+                                    <input type="text" class="input" name="s" value="" placeholder="请输入">
+                                </div>
+                                <button class="btn-search" type="submit">
+                                    <span class="icon-search"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 col-md-3 col-xs-12 col-ts-12">
+                    <div class="header-control">
+                        <div class="block-minicart dungar-mini-cart block-header dungar-dropdown">
+                            <a href="javascript:void(0);" class="shopcart-icon" data-dungar="dungar-dropdown">
+                                购物车
+                                <span class="count">
+									0
+									</span>
+                            </a>
+                            <div class="no-产品 dungar-submenu">
+                                <p class="text">
+                                    你有
+                                    <span>
+											 0 商品
+										</span>
+                                    in 你的 购物袋
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block-账户 block-header dungar-dropdown">
+                            <a href="javascript:void(0);" data-dungar="dungar-dropdown">
+                                <span class="flaticon-user"></span>
+                            </a>
+                            <div class="header-账户 dungar-submenu">
+                                <div class="header-user-form-tabs">
+                                    <ul class="tab-link">
+                                        <li class="active">
+                                            <a data-toggle="tab" aria-expanded="true" href="#header-tab-login">登陆</a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" aria-expanded="true" href="#header-tab-rigister">注册</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-container">
+                                        <div id="header-tab-login" class="tab-panel active">
+                                            <form method="post" class="login form-login">
+                                                <p class="form-row form-row-wide">
+                                                    <input type="email" placeholder="邮箱" class="input-text">
+                                                </p>
+                                                <p class="form-row form-row-wide">
+                                                    <input type="密码" class="input-text" placeholder="密码">
+                                                </p>
+                                                <p class="form-row">
+                                                    <label class="form-checkbox">
+                                                        <input type="checkbox" class="input-checkbox">
+                                                        <span>
+																记住密码
+															</span>
+                                                    </label>
+                                                    <input type="submit" class="button" value="登陆">
+                                                </p>
+                                                <p class="lost_password">
+                                                    <a href="#">忘记 你的 密码?</a>
+                                                </p>
+                                            </form>
+                                        </div>
+                                        <div id="header-tab-rigister" class="tab-panel">
+                                            <form method="post" class="register form-register">
+                                                <p class="form-row form-row-wide">
+                                                    <input type="email" placeholder="邮箱" class="input-text">
+                                                </p>
+                                                <p class="form-row form-row-wide">
+                                                    <input type="密码" class="input-text" placeholder="密码">
+                                                </p>
+                                                <p class="form-row">
+                                                    <input type="submit" class="button" value="注册">
+                                                </p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="menu-bar mobile-navigation menu-toggle" href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-nav-container">
+        <div class="container">
+            <div class="header-nav-wapper main-menu-wapper">
+                <div class="vertical-wapper block-nav-categori">
+                    <div class="block-title">
+						<span class="icon-bar">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+                        <span class="text">全部分类</span>
+                    </div>
+                    <div class="block-content verticalmenu-content">
+                        <ul class="dungar-nav-vertical vertical-menu dungar-clone-mobile-menu">
+                            <li class="menu-item">
+                                <a href="#" class="dungar-menu-item-title" title="新品">新品</a>
+                            </li>
+                            <li class="menu-item">
+                                <a title="热卖" href="#" class="dungar-menu-item-title">热卖</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a title="配件" href="#" class="dungar-menu-item-title">配件</a>
+                                <span class="toggle-submenu"></span>
+                                <ul role="menu" class=" submenu">
+                                    <li class="menu-item">
+                                        <a title="钟表" href="#" class="dungar-item-title">钟表</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a title="电视和视频" href="#" class="dungar-item-title">电视和视频</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a title="新品" href="#" class="dungar-item-title">新品</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a title="配件" href="#" class="dungar-item-title">配件</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a title="Storage" href="#" class="dungar-item-title">Storage</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a title="电视和视频" href="#" class="dungar-menu-item-title">电视和视频</a>
+                            </li>
+                            <li class="menu-item">
+                                <a title="耳机" href="#" class="dungar-menu-item-title">耳机</a>
+                            </li>
+                            <li class="menu-item">
+                                <a title="鼠标" href="#" class="dungar-menu-item-title">鼠标</a>
+                            </li>
+                            <li class="menu-item">
+                                <a title="手机" href="#" class="dungar-menu-item-title">手机</a>
+                            </li>
+                            <li class="menu-item">
+                                <a title="相机" href="#" class="dungar-menu-item-title">相机</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-nav">
+                    <div class="container-wapper">
+                        <ul class="dungar-clone-mobile-menu dungar-nav main-menu " id="menu-main-menu">
+                            <li class="menu-item  menu-item-has-children">
+                                <a href="index.html" class="dungar-menu-item-title" title="首页">首页</a>
+                                <span class="toggle-submenu"></span>
+                                <ul class="submenu">
+                                    <li class="menu-item">
+                                        <a href="index.html">首页 01</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="home2.html">首页 02</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="home3.html">首页 03</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="gridproducts.html" class="dungar-menu-item-title" title="店铺">店铺</a>
+                                <span class="toggle-submenu"></span>
+                                <ul class="submenu">
+                                    <li class="menu-item">
+                                        <a href="gridproducts.html">Grid Fullwidth</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="">Grid Left sidebar</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="gridproducts_bannerslider.html">Grid Bannerslider</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="listproducts.html">List</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item  menu-item-has-children item-megamenu">
+                                <a href="#" class="dungar-menu-item-title" title="Pages">Pages</a>
+                                <span class="toggle-submenu"></span>
+                                <div class="submenu mega-menu menu-page">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 menu-page-item">
+                                            <div class="dungar-custommenu default">
+                                                <h2 class="widgettitle">店铺 Pages</h2>
+                                                <ul class="menu">
+                                                    <li class="menu-item">
+                                                        <a href="shoppingcart.html">购物车</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="wishlist.html">心愿单</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="checkout.html">查看</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="contact.html">联系我们</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="404page.html">404</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="login.html">登陆/注册</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 menu-page-item">
+                                            <div class="dungar-custommenu default">
+                                                <h2 class="widgettitle">产品</h2>
+                                                <ul class="menu">
+                                                    <li class="menu-item">
+                                                        <a href="productdetails-fullwidth.html">产品 Fullwidth</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="productdetails-leftsidebar.html">产品 left
+                                                            sidebar</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="productdetails-rightsidebar.html">产品 right
+                                                            sidebar</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 menu-page-item">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 menu-page-item">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-item  menu-item-has-children">
+                                <a href="inblog_right-siderbar.html" class="dungar-menu-item-title" title="博客">博客</a>
+                                <span class="toggle-submenu"></span>
+                                <ul class="submenu">
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#" class="dungar-menu-item-title" title="Blog Style">Blog Style</a>
+                                        <span class="toggle-submenu"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item">
+                                                <a href="bloggrid.html">Grid</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="bloglist.html">List</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="bloglist-leftsidebar.html">List Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="#" class="dungar-menu-item-title" title="Post Layout">Post Layout</a>
+                                        <span class="toggle-submenu"></span>
+                                        <ul class="submenu">
+                                            <li class="menu-item">
+                                                <a href="inblog_left-siderbar.html">Left Sidebar</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="inblog_right-siderbar.html">Right Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="about.html" class="dungar-menu-item-title" title="关于我们">关于我们</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="header-device-mobile">
+    <div class="wapper">
+        <div class="item mobile-logo">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="static/picture/logo.png" alt="img">
+                </a>
+            </div>
+        </div>
+        <div class="item item mobile-search-box has-sub">
+            <a href="#">
+						<span class="icon">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</span>
+            </a>
+            <div class="block-sub">
+                <a href="#" class="close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+                <div class="header-searchform-box">
+                    <form class="header-searchform">
+                        <div class="searchform-wrap">
+                            <input type="text" class="search-input" placeholder="Enter keywords to search...">
+                            <input type="submit" class="submit button" value="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="item mobile-settings-box has-sub">
+            <a href="#">
+						<span class="icon">
+							<i class="fa fa-cog" aria-hidden="true"></i>
+						</span>
+            </a>
+            <div class="block-sub">
+                <a href="#" class="close">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+                <div class="block-sub-item">
+                    <h5 class="block-item-title">Currency</h5>
+                    <form class="currency-form dungar-language">
+                        <ul class="dungar-language-wrap">
+                            <li class="active">
+                                <a href="#">
+											<span>
+												Chinese (RMB)
+											</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+											<span>
+												English (USD)
+											</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+											<span>
+												Japanese (JPY)
+											</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="item menu-bar">
+            <a class=" mobile-navigation  menu-toggle" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="main-content main-content-产品 left-sidebar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-trail breadcrumbs">
+                    <ul class="trail-items breadcrumb">
+                        <li class="trail-item trail-begin">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="trail-item trail-end active">
+                            Grid Products
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="content-area shop-grid-content no-banner col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="site-main">
+                    <h3 class="custom_blog_title">
+                        Grid Products
+                    </h3>
+                    <div class="shop-top-control">
+                        <form class="select-item select-form">
+                            <span class="title">Sort</span>
+                            <select title="sort" data-placeholder="12 /页" class="chosen-select">
+                                <option value="1">12 /页</option>
+                                <option value="2">9 /页</option>
+                                <option value="3">10 /页</option>
+                                <option value="4">8 /页</option>
+                                <option value="5">6 /页</option>
+                            </select>
+                        </form>
+                        <form class="filter-choice select-form">s
+                            <span class="title">排序</span>
+                            <select title="sort-by" data-placeholder="价格:从低到高" class="chosen-select">
+                                <option value="1">价格:从低到高</option>
+                                <option value="2">排序 popularity</option>
+                                <option value="3">排序 average rating</option>
+                                <option value="4">排序 newness</option>
+                                <option value="5">排序 价格:从高到低</option>
+                            </select>
+                        </form>
+                        <div class="grid-view-mode">
+                            <div class="inner">
+                                <a href="listproducts.html" class="modes-mode mode-list">
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                                <a href="gridproducts.html" class="modes-mode mode-grid  active">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="row list-products auto-clear equal-container 产品-grid">
+                        <li class="product-item  col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                    <div class="flash">
+											<span class="onnew">
+												<span class="text">
+													new
+												</span>
+											</span>
+                                    </div>
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-1.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">White 鼠标</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item 产品-type-variable col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-2.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Homepod Mini</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item 产品-type-variable col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                    <div class="flash">
+											<span class="onnew">
+												<span class="text">
+													new
+												</span>
+											</span>
+                                    </div>
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-3.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Smart Monitor</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item 产品-type-variable col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-4.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Blue 手表</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item  col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-5.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Modern Watch</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item 产品-type-variable col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                    <div class="flash">
+											<span class="onnew">
+												<span class="text">
+													new
+												</span>
+											</span>
+                                    </div>
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-6.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Modern 游戏手柄</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item 产品-type-variable col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-7.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Meta 游戏手柄 </a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item  col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-20.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">小手表</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item 产品-type-variable col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                    <div class="flash">
+											<span class="onnew">
+												<span class="text">
+													new
+												</span>
+											</span>
+                                    </div>
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-9.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">现代耳机</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item  col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-8.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Dark Console</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item  col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                    <div class="flash">
+											<span class="onnew">
+												<span class="text">
+													new
+												</span>
+											</span>
+                                    </div>
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-21.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Blue 手表</a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="product-item  col-lg-4 col-md-6 col-sm-6 col-xs-6 col-ts-12 style-1">
+                            <div class="产品-inner equal-element">
+                                <div class="产品-top">
+                                    <div class="flash">
+											<span class="onnew">
+												<span class="text">
+													new
+												</span>
+											</span>
+                                    </div>
+                                </div>
+                                <div class="产品-thumb">
+                                    <div class="thumb-inner">
+                                        <a href="productdetails-fullwidth.html">
+                                            <img src="static/picture/product-item-22.jpg" alt="img">
+                                        </a>
+                                        <div class="thumb-group">
+                                            <div class="yith-wcwl-add-to-wishlist">
+                                                <div class="yith-wcwl-add-button">
+                                                    <a href="wishlist.html">Add to 心愿单</a>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button quick-wiew-button">Quick View</a>
+                                            <div class="loop-form-add-to-cart">
+                                                <a href="shoppingcart.html" class="single_add_to_cart_button button">Add to cart
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="产品-info">
+                                    <h5 class="产品-name product_title">
+                                        <a href="productdetails-fullwidth.html">Modern 游戏手柄 </a>
+                                    </h5>
+                                    <div class="group-info">
+                                        <div class="stars-rating">
+                                            <div class="star-rating">
+                                                <span class="star-3"></span>
+                                            </div>
+                                            <div class="count-star">
+                                                (3)
+                                            </div>
+                                        </div>
+                                        <div class="price">
+                                            <del>
+                                                $65
+                                            </del>
+                                            <ins>
+                                                $45
+                                            </ins>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pagination clearfix style3">
+                        <div class="nav-link">
+                            <a href="#" class="page-numbers"><i class="icon fa fa-angle-left" aria-hidden="true"></i></a>
+                            <a href="#" class="page-numbers">1</a>
+                            <a href="#" class="page-numbers">2</a>
+                            <a href="#" class="page-numbers current">3</a>
+                            <a href="#" class="page-numbers"><i class="icon fa fa-angle-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="wrapper-sidebar shop-sidebar">
+                    <div class="widget woof_Widget">
+                        <div class="widget widget-categories">
+                            <h3 class="widgettitle">Categories</h3>
+                            <ul class="list-categories">
+                                <li>
+                                    <input type="checkbox" id="cb1">
+                                    <label for="cb1" class="label-text">
+                                        新品
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb2">
+                                    <label for="cb2" class="label-text">
+                                        鼠标
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb3">
+                                    <label for="cb3" class="label-text">
+                                        桌子
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb4">
+                                    <label for="cb4" class="label-text">
+                                        电视和视频
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb5">
+                                    <label for="cb5" class="label-text">
+                                        配件
+                                    </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="cb6">
+                                    <label for="cb6" class="label-text">
+                                        耳机
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget_filter_price">
+                            <h4 class="widgettitle">
+                                Price
+                            </h4>
+                            <div class="price-slider-wrapper">
+                                <div data-label-reasult="Range:" data-min="0" data-max="3000" data-unit="$" class="slider-range-price " data-value-min="0" data-value-max="1000">
+                                </div>
+                                <div class="price-slider-amount">
+                                    <span class="from">$45</span>
+                                    <span class="to">$215</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-brand">
+                            <h3 class="widgettitle">Brand</h3>
+                            <ul class="list-brand">
+                                <li>
+                                    <input id="cb7" type="checkbox">
+                                    <label for="cb7" class="label-text">新品</label>
+                                </li>
+                                <li>
+                                    <input id="cb8" type="checkbox">
+                                    <label for="cb8" class="label-text">鼠标</label>
+                                </li>
+                                <li>
+                                    <input id="cb9" type="checkbox">
+                                    <label for="cb9" class="label-text">桌子</label>
+                                </li>
+                                <li>
+                                    <input id="cb10" type="checkbox">
+                                    <label for="cb10" class="label-text">电视和视频</label>
+                                </li>
+                                <li>
+                                    <input id="cb11" type="checkbox">
+                                    <label for="cb11" class="label-text">配件</label>
+                                </li>
+                                <li>
+                                    <input id="cb12" type="checkbox">
+                                    <label for="cb12" class="label-text">耳机</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget_filter_size">
+                            <h4 class="widgettitle">Size</h4>
+                            <ul class="list-brand">
+                                <li>
+                                    <input id="cb13" type="checkbox">
+                                    <label for="cb13" class="label-text">14.0 mm</label>
+                                </li>
+                                <li>
+                                    <input id="cb14" type="checkbox">
+                                    <label for="cb14" class="label-text">14.4 mm</label>
+                                </li>
+                                <li>
+                                    <input id="cb15" type="checkbox">
+                                    <label for="cb15" class="label-text">14.8 mm</label>
+                                </li>
+                                <li>
+                                    <input id="cb16" type="checkbox">
+                                    <label for="cb16" class="label-text">15.2 mm</label>
+                                </li>
+                                <li>
+                                    <input id="cb17" type="checkbox">
+                                    <label for="cb17" class="label-text">15.6 mm</label>
+                                </li>
+                                <li>
+                                    <input id="cb18" type="checkbox">
+                                    <label for="cb18" class="label-text">16.0 mm</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget-color">
+                            <h4 class="widgettitle">
+                                Color
+                            </h4>
+                            <div class="list-color">
+                                <a href="#" class="color1"></a>
+                                <a href="#" class="color2 "></a>
+                                <a href="#" class="color3 active"></a>
+                                <a href="#" class="color4"></a>
+                                <a href="#" class="color5"></a>
+                                <a href="#" class="color6"></a>
+                                <a href="#" class="color7"></a>
+                            </div>
+                        </div>
+                        <div class="widget widget-tags">
+                            <h3 class="widgettitle">
+                                Popular Tags
+                            </h3>
+                            <ul class="tagcloud">
+                                <li class="tag-cloud-link">
+                                    <a href="#">相机</a>
+                                </li>
+                                <li class="tag-cloud-link">
+                                    <a href="#">电视和视频</a>
+                                </li>
+                                <li class="tag-cloud-link">
+                                    <a href="#">Flowering</a>
+                                </li>
+                                <li class="tag-cloud-link active">
+                                    <a href="#">配件</a>
+                                </li>
+                                <li class="tag-cloud-link">
+                                    <a href="#">Hot</a>
+                                </li>
+                                <li class="tag-cloud-link">
+                                    <a href="#">耳机</a>
+                                </li>
+                                <li class="tag-cloud-link">
+                                    <a href="#">鼠标</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget newsletter-widget">
+                        <div class="newsletter-form-wrap ">
+                            <h3 class="title">Subscribe to Our 通讯</h3>
+                            <div class="subtitle">
+                                More special Deals, Events & Promotions
+                            </div>
+                            <input type="email" class="email" placeholder="您的电子邮箱">
+                            <button type="submit" class="button submit-newsletter">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer style7">
+    <div class="container">
+        <div class="container-wapper">
+            <div class="row">
+                <div class="box-footer col-xs-12 col-sm-4 col-md-4 col-lg-4 hidden-sm hidden-md hidden-lg">
+                    <div class="dungar-newsletter style1">
+                        <div class="newsletter-head">
+                            <h3 class="title">通讯</h3>
+                        </div>
+                        <div class="newsletter-form-wrap">
+                            <div class="list">
+                                注册我们的免费视频课程 and <br> urban garden inspiration
+                            </div>
+                            <input type="email" class="input-text email email-newsletter" placeholder="您的电子邮箱">
+                            <button class="button btn-submit submit-newsletter">订阅</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-footer col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="dungar-custommenu default">
+                        <h2 class="widgettitle">快捷菜单</h2>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="gridproducts.html">新品上市</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="gridproducts.html">生活方式</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="gridproducts.html">电视和视频</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="gridproducts.html">耳机</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="gridproducts.html">鼠标</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-footer col-xs-12 col-sm-4 col-md-4 col-lg-4 hidden-xs">
+                    <div class="dungar-newsletter style1">
+                        <div class="newsletter-head">
+                            <h3 class="title">通讯</h3>
+                        </div>
+                        <div class="newsletter-form-wrap">
+                            <div class="list">
+                                注册我们的免费视频课程 and <br> urban garden inspiration
+                            </div>
+                            <input type="email" class="input-text email email-newsletter" placeholder="您的电子邮箱">
+                            <button class="button btn-submit submit-newsletter">订阅</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-footer col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="dungar-custommenu default">
+                        <h2 class="widgettitle">Information</h2>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#">常见问题</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">追踪订单</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">物流</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="contact.html">联系我们</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Return</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="dungar-socials">
+                            <ul class="socials">
+                                <li>
+                                    <a href="#" class="social-item" target="_blank">
+                                        <i class="icon fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-item" target="_blank">
+                                        <i class="icon fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-item" target="_blank">
+                                        <i class="icon fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="coppyright">Copyright &copy; 2021.Company name All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="footer-device-mobile">
+    <div class="wapper">
+        <div class="footer-device-mobile-item device-home">
+            <a href="index.html">
+					<span class="icon">
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</span>
+                首页
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-wishlist">
+            <a href="#">
+					<span class="icon">
+						<i class="fa fa-heart" aria-hidden="true"></i>
+					</span>
+                心愿单
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-cart">
+            <a href="#">
+					<span class="icon">
+						<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+						<span class="count-icon">
+							0
+						</span>
+					</span>
+                <span class="text">购物车</span>
+            </a>
+        </div>
+        <div class="footer-device-mobile-item device-home device-user">
+            <a href="login.html">
+					<span class="icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</span>
+                账户
+            </a>
+        </div>
+    </div>
+</div>
+<a href="#" class="backtotop">
+    <i class="fa fa-angle-double-up"></i>
+</a>
+<script src="static/js/jquery-1.12.4.min.js"></script>
+<script src="static/js/jquery.plugin-countdown.min.js"></script>
+<script src="static/js/jquery-countdown.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/magnific-popup.min.js"></script>
+<script src="static/js/isotope.min.js"></script>
+<script src="static/js/jquery.scrollbar.min.js"></script>
+<script src="static/js/jquery-ui.min.js"></script>
+<script src="static/js/mobile-menu.min.js"></script>
+<script src="static/js/chosen.min.js"></script>
+<script src="static/js/slick.min.js"></script>
+<script src="static/js/jquery.elevateZoom.min.js"></script>
+<script src="static/js/jquery.actual.min.js"></script>
+<script src="static/js/jquery.fancybox.js"></script>
+<script src="static/js/lightbox.min.js"></script>
+<script src="static/js/owl.thumbs.min.js"></script>
+<script src="static/js/jquery.scrollbar.min.js"></script>
+<script src="static/js/frontend-plugin.js"></script>
+</body>
+</html>
