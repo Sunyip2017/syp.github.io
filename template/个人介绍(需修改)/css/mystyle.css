@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*响应式*/
+ 
+/*nav*/
+@media screen and (min-width:200px) and (max-width:700px){
+    .body{
+           background-color: aquamarine;
+    }
+    .dis{
+        display: none;
+    }
+    .container-bg {
+    background-image: url(../image/home.jpg);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+   padding-bottom: 30%;
+        padding-top: 25%;
+     
+
+}
+    .ah1 span{
+    color: white;
+    text-align: center;
+    margin-top: -50%;
+    font-size: 50px;
+    border: none;
+    margin-bottom: 1%;
+}
+    .menu li{
+        padding-left: 0px;
+        float: left;
+    }
+     .er{
+      
+    }
+
+    .row-me{
+        padding-top: 50%;
+    }
+    #score{
+        padding-top: 50%;
+    }
+    #award{
+        padding-top: 50%;
+    }
+    #work{
+        padding-top: 50%;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+.word{
+    display: none;
+}
+
+
+html,
+body {
+    min-width: 414px;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    background-color: #1e4142;
+    color: #5f7f79;
+
+}
+
+ul.nav li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+ul.nav li a {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+
+.navbar-brand {
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul.menu li a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.container-bg {
+    background-image: url(../image/home.jpg);
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 52%
+}
+
+ul.nav li.active a {
+    color: white;
+}
+
+.navbar-brand a {
+    color: #99a49c;
+}
+
+ .ah1 {
+    color: white;
+    text-align: center;
+    margin-top: -50%;
+    font-size: 1200%;
+    border: none;
+    margin-bottom: 1%;
+}
+
+
+div.row button {
+
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    margin-top: -15%;
+}
+
+.score {
+    padding-top: 5%;
+}
+
+.row-me {
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+
+}
+
+.img-head {
+    float: left;
+    padding-top: 3%;
+    width: 30%;
+    height: auto;
+}
+
+.ble {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.ble > thead > tr > th,
+.ble > tbody > tr > th,
+.ble > tfoot > tr > th,
+.ble > thead > tr > td,
+.ble > tbody > tr > td,
+.ble > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid transparent;
+}
+
+.td {
+    border-top: 1px solid transparent;
+}
+
+.tabb {
+    padding-top: 8%;
+    margin-left: 5%;
+
+}
+
+.tabhe {
+    margin-bottom: 5%;
+}
+
+.tabl {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+.h2me {
+    font-size: 40px;
+    color: #6e968e;
+}
+
+.quot {
+    float: none;
+}
+
+.dll {
+    margin-top: 4%;
+    margin-bottom: 20%;
+}
+
+.dll dd {
+    width: 100%;
+    padding-top: 1%;
+
+}
+
+/*award*/
+
+.reward {
+    margin-top: 10%;
+}
+
+.date {
+    display: block;
+    margin-bottom: 2%;
+
+
+}
+
+.award {
+    text-align: center;
+    margin-top: 15%;
+
+
+}
+
+.awatext {
+    font-size: 220%;
+}
+
+/*work*/
+
+.wkt {
+    display: flex;
+    display: -wilket-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7%;
+    margin-top: 10%;
+
+}
+
+.work {
+    margin-top: 25%
+}
+
+.work img {
+    width: 100%;
+    height: 190px;
+    margin-top: 10%;
+    padding-right: 5%
+}
+
+/*video*/
+
+.vide {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.video {
+    width: 78%;
+    height: 500px;
+
+}
+
+/*contact*/
+
+.conta {
+    display: flex;
+    display: -wilket-flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button {
+    margin-top: 1%;
+
+}
+
+.method {
+    margin-top: 15%;
+
+}
+
+form {
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.er {
+    width: 15%;
+    height:10%;
+    margin-right: 4%;
+}
+
+.divide {
+    height: 1px;
+    border: none;
+    border-top: 1px solid #3f514e;
+    margin: 9px 0;
+    overflow: hidden;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.btn-default a:hover {
+    text-decoration-line: none;
+
+}

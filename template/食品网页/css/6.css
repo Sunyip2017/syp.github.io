@@ -1,0 +1,396 @@
+*{  
+    margin: 0;   
+    padding: 0;  
+
+}
+body{
+    overflow-x: hidden; 
+}
+a{
+	color: white;   
+	text-decoration: none;  
+}
+ul,li{
+    list-style: none;   
+}
+.min-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+   width:1600px;
+    height: 450px;
+    overflow: hidden;
+}
+#benner {
+	width:1600px;
+	height:450px;
+}
+#benner .imga {
+	display:none;
+}
+#benner .img {
+	width: 100%;
+	height: 100%
+}
+#benner .img .active {
+	display:block;
+}
+#benner .title {
+	width:101px;
+	height:16px;
+	background-color: black;
+	/*background-color:rgba(226,226,226,0.6);*/
+	border-radius:30px;
+	margin-top:-35px;
+	float:left;
+	margin-left:45%;
+	margin-right:40%;
+	padding:6px 0px 0px 10px;
+	position:relative;
+}
+#benner .title .nr {
+	list-style:none;
+	width:10px;
+	height:10px;
+	background:#fff;
+	border-radius:10px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:0px;
+}
+#benner .title .active {
+	background:#db192a;
+}
+.nav .uu-lists{
+	position: absolute;
+	top: 80px;
+	z-index: 99;
+	height: 400px !important;
+	display: flex;
+	flex-direction:column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: rgba(255,87,34,.7);
+	transition:  .5s ease;
+	opacity: 0;
+}
+.uu-lists>li{
+	float: none;
+	display: block;
+	border-bottom: 1px solid white;
+	/*background-color: rgba(255,87,34,.7);*/
+}
+
+.uu-lists>li:last-child{
+	border-bottom: none;
+}
+.nav{
+	position: relative;
+    width: 100%;
+    height: 80px;
+    transition: .8s ease; 
+     background-color: rgba(255,87,34,.7);
+    }
+.nav ul{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+   
+}
+.nav ul li{
+    float: left;
+    width: 140px;
+    height: 100%;
+   
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.nav ul .logo{
+	width: 300px;
+	background: none;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 700;
+}
+.dingjia{
+    background-color: rgb(62, 62, 62);
+    width: 100%;
+    height: 650px;
+    float: left;
+}
+.dingjia .dingbu{
+    text-align: center;
+    height: 100px;
+    margin-top: 30px;
+}
+.dingjia .dingbu span{
+    color: white;
+    font-size: 40px;
+}
+.dingjia .dingbu p{
+    font-size: 15px;
+    color: white;
+}
+.dibu{
+    width: 100%;
+    height: 550px;
+}
+.dibu .dibu-left{
+    width: 33%;
+    height: 550px;
+    float: left;
+}
+.dibu .dibu-right{
+    width: 33%;
+    height: 550px;
+    float: right;
+}
+.dibu .dibu-mid{
+    overflow: hidden;
+    height: 550px;
+}
+.zuo{
+    background-color: white;
+    width: 300px;
+    height: 470px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 100px;
+}
+.dakuang{
+    text-align: center;
+    background-color: rgb(138, 138, 138);
+    width: 100%;
+    height: 80px;
+    border: 1px solid white;
+}
+.dakuang span{
+    font-size: 20px;
+}
+.dakuang p{
+    margin-top: 10px;
+}
+.xiao{
+    margin-top: 50px;
+}
+.xiao span:nth-of-type(1){
+    font-size: 30px ;
+}
+.xiao p{
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.xiao span:nth-of-type(2){
+    font-size: 20px;
+}
+.xiao button{
+    margin-top: 20px;
+    color: orangered;
+    border: 1px solid orangered;
+    width: 80%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.xiao span:nth-of-type(3){
+    color: orangered;
+}
+.zhong{
+    background-color: white;
+    width: 300px;
+    height: 520px;
+    text-align: center;
+    margin-left: 100px;
+}
+.shangkuang{
+    text-align: center;
+    background-color: rgb(213, 75, 75);
+    width: 100%;
+    height: 80px;
+    border: 1px solid white;
+}
+.shangkuang span{
+    font-size: 20px;
+}
+.shangkuang p{
+    margin-top: 10px;
+}
+.da{
+    margin-top: 50px;
+}
+.da span:nth-of-type(1){
+    font-size: 30px ;
+}
+.da p{
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.da span:nth-of-type(2){
+    font-size: 20px;
+}
+.da button{
+    margin-top: 20px;
+    color: orangered;
+    border: 1px solid orangered;
+    width: 80%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.da span:nth-of-type(3){
+    color: orangered;
+}
+nav h3{
+	width: 250px;
+    height: 60px;
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 60px;
+    border-bottom: 5px solid rgb(255,87,34);
+    font-size: 34px;
+    color: rgb(255,87,34);
+}
+.page-title{
+    margin: 100px 0 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    word-break: break-all;
+    font-size:20px;
+    text-align:center;
+}
+.cover{
+    float: left;
+    width:560px;
+    height:368px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../img/dg.jpeg)
+}
+.recipe{
+    color: #c0ae7d;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700
+}
+.yl{
+    margin-bottom:10px;
+    color: #c0ae7d;
+    font-size:20px;
+}
+.ings{
+    float: left;
+    margin-left:20px;
+    width:400px;
+}
+.ings table {
+    line-height: 20px;
+}
+ .ings tr {
+    border-top: 1px solid #f3f4f5;
+    border-bottom: 1px solid #f3f4f5;
+}
+.ings tr {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.ings tr:first-child {
+    border-top: none;
+}
+.ings .name {
+    width: 280px;
+    text-align: left;
+    padding: 0 8px;
+}
+.ings tr a {
+    color: #222;
+}
+.ings .unit {
+    padding-left: 20px;
+}
+.steps{
+    width:1000px;
+    margin:0 auto;
+}
+.steps ol {
+    counter-reset: li;
+    padding-left: 32px;
+}
+.steps ol li {
+    display: block;
+    list-style: none;
+    margin-bottom: 32px;
+    position: relative;
+}
+.steps ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #c0ae7d;
+}
+.steps .text {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: left;
+}
+.steps img {
+    margin-top:10px;
+}
+.steps .container{
+    width:50%;
+    overflow: hidden;
+    float: left;
+    padding:10px 20px;
+    box-sizing: border-box;
+    height:300px;
+    text-align: center;
+}
+h2{
+    margin:30px 0;
+}
+table{
+    width:600px;
+    margin:0 auto;
+}
+.box{
+    width:1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+img{
+    transition: all ease-in .3s;
+}
+
+.text-box{
+	color: #000;
+	white-space: nowrap;
+	overflow: hidden;
+    width:1000px;
+    margin:0 auto;
+  }
+  .content p{
+	display:inline-block;
+    font-size:18px;
+    padding:10px 0;
+  }
+  .content p.padding{
+	padding-right: 300px;
+  }

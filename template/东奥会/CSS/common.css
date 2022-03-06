@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 1250px;
+    background-color: rgb(238, 237, 237);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* 导航栏部分 */
+
+.nav_s {
+    position: relative;
+    width: auto;
+    height: 60px;
+    margin: 0px auto;
+    line-height: 60px;
+    /* background-color: pink; */
+}
+
+.nav_s .left {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #6bdcf0;
+    letter-spacing: 5px;
+}
+
+.nav_s .middle {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px;
+    width: 700px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.nav_s .middle li {
+    /* position: relative; */
+    float: left;
+    margin: 0 20px;
+}
+
+.nav_s .middle li:hover a {
+    color: #6bdcf0;
+}
+
+.nav_s .middle li:hover {
+    border-top: 3px solid #6bdcf0;
+    height: 57px;
+}
+
+.nav_s .middle .pitch a {
+    color: #6bdcf0;
+}
+
+.nav_s .middle .pitch {
+    border-top: 3px solid #6bdcf0;
+    height: 57px;
+    line-height: 57px;
+}
+
+.nav_s .right {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.nav_s .right>* {
+    float: left;
+}
+
+.nav_s .right .pic {
+    width: 40px;
+    height: 40px;
+    margin-top: 9px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: center;
+    background-color: #6bdcf0;
+}

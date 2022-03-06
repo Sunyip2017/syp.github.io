@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+/* *::before, */
+/* *::after { */
+/* box-sizing: border-box; */
+/* } */
+
+@font-face {
+	font-family: ttt;
+	src: url('../Fonts/kastler.svg'),
+		url('../Fonts/kastler.eot'),
+		url('../Fonts/kastler.ttf'),
+		url('../Fonts/kastler.woff');
+}
+
+#container {
+	width: 100%;
+	height: 900px;
+	background-color: white;
+	/* background-image: url(../云.png); */
+	margin: auto;
+	z-index: 1;
+}
+
+#header {
+	float: left;
+	width: 100%;
+	height: 55px;
+	/* margin-top: 0px; */
+	line-height: 55px;
+	/* margin-left: 60px; */
+	box-shadow: 5px;
+	border-radius:15px;
+	z-index: 1;
+	position: fixed;
+	background-color: white;
+}
+
+.ming {
+	float: left;
+	margin-top: -15px;
+	margin-left: 10px;
+	/* background-color: white; */
+}
+
+.ming h1 {
+	font-size: 50px;
+	color: darkblue;
+	letter-spacing: 2px;
+	position: fixed;
+}
+
+#nav {
+	float: left;
+	height: 32px;
+	/* background-color: peru; */
+	margin-top: 15px;
+	margin-right: 10px;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	z-index: 66;
+}
+
+.nav {
+	position: relative;
+	z-index: 66;
+}
+
+.nav li {
+	/* margin-top: 15px; */
+	/* border: 1px dashed pink; */
+	line-height: 36px;
+	width: 120px;
+	list-style: none;
+	/* background: paleturquoise; */
+	text-align: center;
+	float: right;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+
+}
+
+.nav ul li a:hover {
+	color: darkblue;
+	display: block;
+}
+
+.nav ul ul li a:hover {
+	color: darkblue;
+}
+
+.nav ul ul {
+	display: none;
+}
+
+.nav ul li:hover ul {
+	display: block;
+}
+#fendian{
+	margin-top: 10px;
+	text-align: center;
+	font-family: "arial black";
+}
+#fendian .glyphicon h1{
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+}
+.list-img .a {
+	margin-left: 5px;
+	display:block;
+	float: left;
+}
+.list-img .a img{
+	margin-left: 15px;
+	width: 400px;
+	float: left;
+}
+.list-img .a:hover{
+	margin-left: 15px;
+	background: #B9DEF0;
+	display: block;
+	width: 400px;
+}
+.list-img .a p{
+	font-size: 30px;
+	text-align: center;
+}
+

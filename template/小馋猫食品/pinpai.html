@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>品牌故事</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="clearfix nav">
+			<a class="logo" href="javascript:;"></a>
+			<ul class="clearfix nav-wrap">
+				<li><a class="nav-item" href="index.html">首页</a></li>
+				<li><a class="nav-item nav-active" href="pinpai.html">品牌故事</a></li>
+				<li><a class="nav-item" href="meishi.html">美食系列</a></li>
+				<li><a class="nav-item" href="shop.html">店面展示</a></li>
+				<li><a class="nav-item" href="news.html">新闻资讯</a></li>
+				<li><a class="nav-item" href="about-us.html">关于我们</a></li>
+			</ul>
+		</div>
+		
+		<div id="container">
+			<!-- <div id="buttons">
+		        <span index="1" class="on"></span>
+		        <span index="2"></span>
+		        <span index="3"></span>
+		    </div> -->
+		  <!--   <a href="javascript:;" id="prev" class="arrow"><img src="img/l.png"/></a>
+		    <a href="javascript:;" id="next" class="arrow"><img src="img/r.png"/></a> -->
+		</div>
+		
+		<ul class="breadnav clearfix">
+			<li class="bnav-item"><a href="index.html">首页</a></li>
+			<li class="bnav-item">&lt;</li>
+			<li class="bnav-item"><a href="pinpai.html">品牌故事</a></li>
+			<li class="bnav-item">&lt;</li>
+			<li class="bnav-item"><a href="javascript:;">品牌来源</a></li>
+		</ul>
+		<div class="comp-wrap">
+			<p class="comp-tit">品牌来源</p>
+			<!-- <div class="comp-pic">
+				<img src="img/pic3.jpg"/> -->
+			</div>
+			<div class="comp-txt">
+			<p>小馋猫甜品店是小馋猫甜品股份有限公司成立于2015年10月15日，总公司在上海市黄浦区，是中国一家定位与以甜品品牌的企业，其主营业覆盖了多种蛋糕类别等甜品类食品。</p>
+			<p>小馋猫甜品股份有限公司为促进国内以及全球的甜点零售业的发展和现代化。因较为精准的市场定位，小馋猫迅速在各旗下店铺以及全国走红，一直以来，小馋猫甜品店也是当代年轻人的首选“下午茶”。</p>
+			<p>小馋猫甜品生产研发实力，遍布全国的现代化仓储网络，食品行业用户数据，将提升食品物流效率他使用率，病与第三方服务公司开放，与产业链中的各个参与环节共同发展，以促进生态繁荣。</p>
+			</div>
+		</div>
+
+		<div class="foot">
+			<div class="foot-wrap">
+				<p class="foot-tit">友情链接</p>
+				<ul class="foot-link clearfix">
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link6.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link5.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link4.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link3.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link2.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link1.png"/></a>
+					</li>
+				</ul>
+				<div class="copyright">
+					<p>CopyRight©2003-2015 All right rederved</p>
+					<p>ICP备案号：津ICP备20004177号-1</p>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<!--jq调用-->
+	<script src="js/jquery-1.11.0.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		//导航当前项切换	
+		$(".nav-item").click(function(){
+			$(this).parent("li").siblings().children().removeClass("nav-active");		
+			//点击对象的父级（li）的兄弟级（li）的子集（a）移除类
+			$(this).addClass("nav-active");												
+			//给点击对象添加类
+		});
+	</script>
+</html>

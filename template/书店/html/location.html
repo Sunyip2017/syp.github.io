@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WBetter - 我们都在变得更好</title>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/daohanglan.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/bxy.css" />
+		<link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<div class="ming">
+					<h1><strong>We-Better</strong></h1>
+				</div>
+			</div>
+			<div id="nav">
+				<div class="nav">
+					<ul>
+						<li>
+							<a href="news.html">News</a>
+						</li>
+						<li>
+							<a href="#">Existing</a>
+							<!-- 现有书籍 -->
+							<ul>
+								<li><a href="#">Domestic</a></li>
+								<li><a href="#">Abroad</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Reserve</a>
+							<!-- 预约座位 -->
+						</li>
+						<li>
+							<a href="index.html" target="_self">About</a>
+							<ul>
+								<li><a href="message.html">Message</a></li>
+								<li><a href="call.html">Call</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="location.html" target="_self">Location</a>
+						</li>
+						<li>
+							<a href="sign.html" target="_self">Sign</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="bg">
+				<div class="box-img"><img src="../images1/shu2.jpeg" width="100%" height="500px"></div>
+			</div>
+			<div class="data">
+
+				<p>
+				</p>
+			</div>
+			<script type="text/javascript">
+				var div = document.querySelector('.data');
+
+				function getDate() {
+					var date = new Date(); // 基于当前日期时间创建Date对象
+					var year = date.getFullYear(); // 获取年
+					var month = date.getMonth() + 1; // 获取月
+					var day = date.getDate(); // 获取日
+					// 通过数组将星期值转换为字符串
+					var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+					// 输出date对象保存的时间，示例：今天是2019年9月16日 星期三
+					return '今天是' + year + '年' + month + '月' + day + '日 ' + week[date.getDay()];
+				}
+				var p = document.querySelector('p');
+				p.innerText = getDate();
+				// 在当前段落修改文字
+			</script>
+			<div id="fendian">
+				<span class="glyphicon glyphicon-map-marker" aria-hidden="true">
+					<h1>书店分布/Location</h1>
+				</span>
+			</div>
+			<div class="list-img">
+				<div class="card">
+					<div class="imgBx">
+						<a href="#" target="_blank">
+							<img src="../images1/fendian2.jpg" title="北京分店地址">
+						</a>
+					</div>
+					<div class="content">
+						<h2>北京分店</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas consectetur
+							nisi mollitia est saepe laudantium atque ad laborum quae </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="imgBx">
+						<a href="#" target="_blank">
+							<img src="../images1/fendian.jpg" title="湖南分店地址">
+						</a>
+					</div>
+					<div class="content">
+						<h2>湖南分店</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas consectetur
+							nisi mollitia est saepe laudantium atque ad laborum quae </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="imgBx">
+						<a href="#" target="_blank">
+							<img src="../images1/fendian.jpg" title="湖南分店地址">
+						</a>
+					</div>
+					<div class="content">
+						<h2>天津分店</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas consectetur
+							nisi mollitia est saepe laudantium atque ad laborum quae </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="imgBx">
+						<a href="#" target="_blank">
+							<img src="../images1/fendian2.jpg" title="湖南分店地址">
+						</a>
+					</div>
+					<div class="content">
+						<h2>成都分店</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas consectetur
+							nisi mollitia est saepe laudantium atque ad laborum quae </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="imgBx">
+						<a href="#" target="_blank">
+							<img src="../images1/fendian.jpg" title="湖南分店地址">
+						</a>
+					</div>
+					<div class="content">
+						<h2>杭州分店</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas consectetur
+							nisi mollitia est saepe laudantium atque ad laborum quae </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="imgBx">
+						<a href="#" target="_blank">
+							<img src="../images1/fendian.jpg" title="湖南分店地址">
+						</a>
+					</div>
+					<div class="content">
+						<h2>承德分店</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptas consectetur
+							nisi mollitia est saepe laudantium atque ad laborum quae </p>
+					</div>
+				</div>
+			</div>
+			<!-- <div id="footer"> -->
+			<!-- ©网站设计课程版权 2021-2121 -->
+			<!-- </div> -->
+			<div id="footer">
+				<div class="bq g_mt clearfix">
+					<div class="g_cw tb">
+
+						<div class="bq_a">
+							<div class="bt">
+								<h3>网站导航</h3>
+								<div class="xh">
+									<p class="xh_a"></p>
+									<p class="xh_b"></p>
+								</div>
+							</div>
+							<ul class="list right">
+								<li><a href="index.html">网站首页</a></li>
+								<li><a href="index.html">关于我们</a></li>
+								<li><a href="index.html">书店房间</a></li>
+								<li><a href="index.html">书店餐饮</a></li>
+								<li><a href="index.html">书店分布</a></li>
+								<li><a href="index.html">联系我们</a></li>
+							</ul>
+						</div>
+
+
+						<div class="bq_a">
+							<div class="bt">
+								<h3>联系我们</h3>
+								<div class="xh">
+									<p class="xh_a"></p>
+									<p class="xh_b"></p>
+								</div>
+							</div>
+							<ul class="list width">
+								<li>
+									<p><img class="" src="../images1/4.bmp">咨询热线：123</p>
+								</li>
+								<li>
+									<p><img class="bq_tb" src="../images1/3.bmp">联系地址：123</p>
+								</li>
+								<li>
+									<p><img class="" src="../images1/2.bmp">联系邮箱：123</p>
+								</li>
+							</ul>
+						</div>
+
+
+						<div class="bq_a ne">
+							<div class="bt">
+								<h3>关注我们</h3>
+								<div class="xh">
+									<p class="xh_a"></p>
+									<p class="xh_b"></p>
+								</div>
+							</div>
+							<div class="sm">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<img src="../images1/0315.jpg">
+								<p>扫一扫微信</p>
+							</div>
+						</div>
+
+
+
+						<div class="bq_a no">
+							<p class="top">
+								分享至:
+								<a href=""><img src="../images1/bq_ct_a.png"></a>
+								<a href=""><img src="../images1/bq_ct_b.png"></a>
+								<a href=""><img src="../images1/bq_ct_c.png"></a>
+								<a href=""><img src="../images1/bq_ct_d.png"></a>
+							</p>
+						</div>
+					</div>
+
+					<div class="bq_b">
+						<div class="g_cw">
+							<div class="left">
+								<p>
+									分享至:
+									<a href=""><img src="../images1/bq_ct_a.png"></a>
+									<a href=""><img src="../images1/bq_ct_b.png"></a>
+									<a href=""><img src="../images1/bq_ct_c.png"></a>
+									<a href=""><img src="../images1/bq_ct_d.png"></a>
+								</p>
+							</div>
+							<div class="right">
+								<p>©网站设计课程版权 2021-2121 </p>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+
+			</div>
+		</div>
+	</body>
+</html>

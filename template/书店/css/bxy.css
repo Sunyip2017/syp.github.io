@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+
+/* *::before, */
+/* *::after { */
+/* box-sizing: border-box; */
+/* } */
+
+@font-face {
+	font-family: ttt;
+	src: url('../Fonts/kastler.svg'),
+		url('../Fonts/kastler.eot'),
+		url('../Fonts/kastler.ttf'),
+		url('../Fonts/kastler.woff');
+}
+
+#container {
+	width: 100%;
+	height: 1500px;
+	background-color: white;
+	/* background-image: url(../ÔÆ.png); */
+	margin: auto;
+	z-index: 1;
+}
+
+#header {
+	float: left;
+	width: 100%;
+	height: 55px;
+	/* margin-top: 0px; */
+	line-height: 55px;
+	/* margin-left: 60px; */
+	box-shadow: 5px;
+	border-radius: 15px;
+	z-index: 1;
+	position: fixed;
+	background-color: white;
+}
+
+.ming {
+	float: left;
+	margin-top: -15px;
+	margin-left: 10px;
+	/* background-color: white; */
+}
+
+.ming h1 {
+	font-size: 50px;
+	color: darkblue;
+	letter-spacing: 2px;
+	position: fixed;
+}
+
+.data p {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 14px;
+}
+
+#nav {
+	float: left;
+	height: 32px;
+	/* background-color: peru; */
+	margin-top: 15px;
+	margin-right: 10px;
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	z-index: 66;
+}
+
+.nav {
+	position: relative;
+	z-index: 66;
+}
+
+.nav li {
+	/* margin-top: 15px; */
+	/* border: 1px dashed pink; */
+	line-height: 36px;
+	width: 120px;
+	list-style: none;
+	/* background: paleturquoise; */
+	text-align: center;
+	float: right;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+
+}
+
+.nav ul li a:hover {
+	color: darkblue;
+	display: block;
+}
+
+.nav ul ul li a:hover {
+	color: darkblue;
+}
+
+.nav ul ul {
+	display: none;
+}
+
+.nav ul li:hover ul {
+	display: block;
+}
+
+#fendian {
+	margin-top: 10px;
+	text-align: center;
+	font-family: "arial black";
+}
+
+#fendian .glyphicon h1 {
+	margin-top: 10px;
+	width: 100%;
+	height: 100px;
+}
+
+.list-img {
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0px;
+}
+
+.list-img .card {
+	border: 3px;
+	margin-left: 5px;
+	display: block;
+	float: left;
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: #fff;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 202px rgba(0, 0, 0, 0.2);
+	transition: 0.3s ease-in-out;
+}
+.list-img .card img {
+	text-align: center;
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.list-img .card:hover {
+	height: 420px;
+}
+.list-img .card .imgBx{
+	position: relative;
+	width: 260px;
+	height: 260px;
+	top: -50px;
+	left: 6px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.list-img .card .content{
+	position: relative;
+	margin-top:-140px;
+	padding: 3px -1px;
+	text-align: center;
+	color: #111;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+.list-img .card:hover .content{
+	visibility:visible;
+	opacity: 1;
+	margin-top:-40px;
+	transition: 0.3s ease-in-out;
+}
+
+
+html {
+    background: #ffffff;
+    font-size: 14px;
+    color: #333;
+    font-family: "Arial", "Î¢ÈíÑÅºÚ", "Helvetica", "sans-serif";
+}
+#footer {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	clear: both;
+	color: white;
+	background-color: #000000;
+}
+@media screen and (min-width:576px) {
+	.beijing{
+		
+		font-size: 4px;
+	}
+	/* #nav{ */
+		/* font-size: 14px; */
+	/* } */
+	label[for="nav-checkbox"]{
+		display: initial;
+		background-color: #00BBFF;
+		width: 50px;
+		height: 40px;
+		font-size: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: rgb(173,173,173) 2px solid;
+		color: rgb(173,173,173);
+		border-radius: 4px;
+	}
+	label[for="nav-checkbox"]:hover{
+		color: #fff;
+		border: #fff 2px solid ;
+	}
+	#nav-checkbox:checked+label{
+		background-color: #fff;
+		color: #000000;
+		border: #fff 2px solid;
+	}
+	/* .nav{ */
+		/* display: none; */
+	/* } */
+}
+@media screen and (min-width: 768px) {
+	.list-img .card{
+		width: 40%;
+	}
+
+	/* #nav { */
+		/* flex-wrap: wrap; */
+		/* justify-content:space-between; */
+	/* } */
+	
+}
+@media screen and (min-width: 992px) {
+	.beijing {
+		font-size: 21px;
+	}
+	.beijing .tp1{
+		overflow: hidden;
+	}
+}

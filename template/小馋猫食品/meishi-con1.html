@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>美食系列</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="clearfix nav">
+			<a class="logo" href="javascript:;"></a>
+			<ul class="clearfix nav-wrap">
+				<li><a class="nav-item" href="index.html">首页</a></li>
+				<li><a class="nav-item" href="pinpai.html">品牌故事</a></li>
+				<li><a class="nav-item nav-active" href="meishi.html">美食系列</a></li>
+				<li><a class="nav-item" href="shop.html">店面展示</a></li>
+				<li><a class="nav-item" href="news.html">新闻资讯</a></li>
+				<li><a class="nav-item" href="about-us.html">关于我们</a></li>
+			</ul>
+		</div>
+		
+		<div id="container">
+			<!-- <div id="buttons">
+		        <span index="1" class="on"></span>
+		        <span index="2"></span>
+		        <span index="3"></span>
+		    </div> -->
+		   <!--  <a href="javascript:;" id="prev" class="arrow"><img src="img/l.png"/></a>
+		    <a href="javascript:;" id="next" class="arrow"><img src="img/r.png"/></a> -->
+		</div>
+		
+		<ul class="breadnav clearfix">
+			<li class="bnav-item"><a href="index.html">首页</a></li>
+			<li class="bnav-item">&lt;</li>
+			<li class="bnav-item"><a href="meishi.html">美食系列</a></li>
+			<li class="bnav-item">&lt;</li>
+			<li class="bnav-item"><a href="javascript:;">慕斯蛋糕</a></li>
+		</ul>
+		<div class="mei-wrap">
+			<p class="mei-tit">慕斯蛋糕</p>
+			<!-- <div class="mei-pic">
+				<img src="img/meishi-pic.jpg"/>
+			</div> -->
+			<div class="mei-txt">
+				<p>慕斯是英文mousse的译音，它是一种以奶油，明胶，蛋黄，糖为基本原料的奶冻式的甜点。实际上，慕斯中不含面粉，并算不上是蛋糕。但我们通常会在慕斯层中间和底部加垫蛋糕，成为慕斯蛋糕。这样做可以消除单纯慕斯层的油腻感，给食客带来多层次的味觉体验。</p>
+				<p>在口感上来说慕斯是介于冰淇淋与果冻之间的一道奶冻式甜点。但它不像冰淇淋入口迅速融化，而是温柔地慢慢地融化。它又比果冻的Q弹柔软多了一种轻盈的气泡感。关于慕斯确实没有一个非常明确的定义。在打发至轻盈状态的淡奶油或者蛋白霜中加入凝固剂混合均匀，产生浓稠冻状的效果且具有轻柔、入口即化气泡感就是慕斯的基本做法。</p>
+			</div>
+			<a href="meishi.html" class="meishi-icon1">返回列表页</a>
+		</div>
+
+		<div class="foot">
+			<div class="foot-wrap">
+				<p class="foot-tit">友情链接</p>
+				<ul class="foot-link clearfix">
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link6.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link5.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link4.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link3.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link2.png"/></a>
+					</li>
+					<li class="foot-pic">
+						<a href="javascript:;"><img src="img/link1.png"/></a>
+					</li>
+				</ul>
+				<div class="copyright">
+					<p>CopyRight©2003-2015 All rigt rederved</p>
+					<!-- <p>版权所有：贵族食代牛排有限公司  来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p> -->
+					<!-- <p>ICP备案号：京ICP备16047255号-3本站信息由会员自主添加，如信息涉及隐私等，网站不承担任何责任！</p> -->
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<!--jq调用-->
+	<script src="js/jquery-1.11.0.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		//导航当前项切换	
+		$(".nav-item").click(function(){
+			$(this).parent("li").siblings().children().removeClass("nav-active");		
+			//点击对象的父级（li）的兄弟级（li）的子集（a）移除类
+			$(this).addClass("nav-active");												
+			//给点击对象添加类
+		});
+	</script>
+</html>

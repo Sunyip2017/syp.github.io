@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding-left:0;
+}
+li{
+    list-style: none;
+}
+.container{
+    width:100%;
+    max-width:990px;
+    margin: 0 auto;
+}
+.menu-list{
+    overflow: hidden;
+}
+.menu-list li{
+    float:left;
+    margin-left:-3px;
+    width:14.589%;
+    text-align:center;
+    line-height:40px;
+    background: url(../images/navbg.gif) repeat-x 0 0;
+}
+.menu-list li:hover{
+    background: url(../images/navbghover.gif) repeat-x 0 0;
+}
+.banner img{
+    display: block;
+    width:100%;
+    height:auto;
+}
+.content{
+    overflow: hidden;
+    font-size:12px;
+}
+.content-left{
+    width:20%;
+    float:left;
+    background-color:rgb(149, 207, 235);
+    height:778px;
+}
+.content-left p{
+    padding: 0 10px;
+    margin: 20px 0;
+}
+.content-right{
+    width:80%;
+    float:left;
+    background: rgb(234, 250, 255);
+}
+.note,.mood{
+    text-align:center;
+}
+.img-box img{
+    border:1px solid #000;
+}
+.content-right h3{
+    text-decoration: underline;
+    color:rgb(13, 219, 226);
+    margin-bottom:30px;
+}
+#experience,#trip,#relay{
+    margin-bottom:30px;
+}
+#trip p{
+    margin-bottom:15px;
+}
+.footer {
+    background: url(../images/footbg.gif) repeat 0 0;
+    line-height: 60px;
+    text-align: center;
+    color:#fff;
+}
+.right-box{
+    padding: 0 20px 20px;
+    background:  url(../images/bg.jpg) no-repeat bottom right;
+}
+.fix-item{
+    position:fixed;
+    top:45%;
+    z-index:1;
+    background:rgb(236, 108, 193);
+    padding: 20px 30px 10px 0;
+    
+}
+.fix-item p{
+    margin-bottom:10px;
+}
+.fix-item.left{
+    left:5%;
+}
+.fix-item.right{
+    right:5%;
+}

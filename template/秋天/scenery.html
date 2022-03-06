@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XXX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="Transit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"
+    />
+    <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- banner -->
+    <div class="banner">
+      <!-- container -->
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="index.html">
+              <img src="./images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="top-nav">
+          <span class="menu">菜单</span>
+          <ul class="nav1">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="scenery.html" class="active">景色</a></li>
+            <li><a href="food.html">美食</a></li>
+          </ul>
+          <!-- script-for-menu -->
+          <script>
+            $("span.menu").click(function () {
+              $("ul.nav1").slideToggle(300, function () {
+                // Animation complete.
+              });
+            });
+          </script>
+          <!-- /script-for-menu -->
+        </div>
+      </div>
+      <!-- //container -->
+      <div class="banner-text">
+        <!-- container -->
+        <div class="container">
+          <ul>
+            <li>秋季是四季中的一季，在夏季与冬季之间的位置。</li>
+          </ul>
+        </div>
+        <!-- //container -->
+      </div>
+    </div>
+    <!-- //banner -->
+    <!-- banner-bottom -->
+    <div class="banner-top-slide">
+      <div class="banner-bottom-top">
+        <h4>秋天</h4>
+        <p>成熟的季节</p>
+      </div>
+      <div class="banner-bottom-bottom">
+        <div class="banner-top-slide-grids">
+          <script src="js/responsiveslides.min.js"></script>
+          <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+              // Slideshow 4
+              $("#slider3").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                  $(".events").append("<li>before event fired.</li>");
+                },
+                after: function () {
+                  $(".events").append("<li>after event fired.</li>");
+                },
+              });
+            });
+          </script>
+          <div id="top" class="callbacks_container">
+            <ul class="rslides" id="slider3">
+              <li>
+                <div class="banner-slid">
+                  <h3>秋的诗词</h3>
+                  <p>空山新雨后，天气晚来秋</p>
+                </div>
+              </li>
+              <li>
+                <div class="banner-slid">
+                  <p>秋的诗词</p>
+                  <p>落霞与孤鹜齐飞，秋水共长天一色</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mj">
+      <img src="./images/mj1.jpeg" alt="" />
+      <img src="./images/mj2.jpeg" alt="" />
+      <img src="./images/mj3.jpeg" alt="" />
+      <img src="./images/mj4.jpeg" alt="" /><img
+        src="./images/mj5.jpeg"
+        alt=""
+      />
+      <img src="./images/mj6.jpeg" alt="" />
+      <img src="./images/mj7.jpeg" alt="" />
+      <img src="./images/mj8.jpeg" alt="" />
+      <img src="./images/mj9.jpeg" alt="" />
+      <img src="./images/mj10.jpeg" alt="" />
+      <img src="./images/mj11.jpeg" alt="" />
+    <img src="./images/mj12.jpeg" alt="" />
+    </div>
+    <div class="footer"></div>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="copyright">
+      <!-- container -->
+      <div class="container">
+        <div class="copyright-left">
+          <p>Copyright &copy; 2020.All rights reserved.&nbsp;</p>
+        </div>
+      </div>
+      <!-- //container -->
+    </div>
+  </body>
+</html>

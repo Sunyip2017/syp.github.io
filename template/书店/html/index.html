@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<title>WBetter - 我们都在变得更好</title>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/daohanglan.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+		<link rel="shortcut icon" href="../logo.ico" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="../css/about.css" />
+	</head>
+	<body>
+		<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery。
+		Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+		<script src="../js/jquery-3.5.1.slim.min.js"></script>
+		<!-- 用于弹窗、提示、下拉菜单 -->
+		<script src="../js/popper.min.js"></script>
+		<!-- 包括所有已编译的插件 ，
+		加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件-->
+		<script src="../js/bootstrap.min.js"></script>
+		<div id="container">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid">
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						We-Better
+					</a>
+				  </div>
+			  
+				  <!-- Collect the nav links, forms, and other content for toggling -->
+				  <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+					  <li><a href="#">News <span class="sr-only">(current)</span></a></li>
+					  <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Existing <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">Domestic</a></li>
+						  <li><a href="#">Abroad</a></li>
+						</ul>
+					  </li>
+					  <li><a href="#">Reserve</a></li>
+					  <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						  <li><a href="#">Message</a></li>
+						  <li><a href="#">Cell</a></li>
+						</ul>
+					  </li>
+					  <li><a href="#">Location</a></li>
+					  <li><a href="#">Sign</a></li>
+					</ul>
+				  </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			  </nav>
+			<div id="bg">
+				<img src="../images1/shouye1.jpeg" width="100%" height="500px">
+			</div>
+			<div class="data">
+				<p>
+				</p>
+			</div>
+			<script type="text/javascript">
+				var div = document.querySelector('.data');
+
+				function getDate() {
+					var date = new Date(); // 基于当前日期时间创建Date对象
+					var year = date.getFullYear(); // 获取年
+					var month = date.getMonth() + 1; // 获取月
+					var day = date.getDate(); // 获取日
+					// 通过数组将星期值转换为字符串
+					var week = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+					// 输出date对象保存的时间，示例：今天是2019年9月16日 星期三
+					return '今天是' + year + '年' + month + '月' + day + '日 ' + week[date.getDay()];
+				}
+				var p = document.querySelector('p');
+				p.innerText = getDate();
+				// 在当前段落修改文字
+			</script>
+			<div id="dingwei">
+				<span class="glyphicon glyphicon-map-marker" aria-hidden="true">
+					<h1>书店简介/Index</h1>
+				</span>
+			</div>
+			<div id="jianjie">
+				<div class="biaoti">
+					<h2>书店简介 /</h2>
+					<h3><strong>BOOKSTORER INTRODUCTION</strong></h3>
+				</div>
+				<div class="beijing clearfix">
+					<img class="img1" src="../images1/shouye2.jpeg" width="100%" height="500px">
+					<h1 class="l1">关于书店</h1>
+					<p>——————————</p>
+					<h3 class="l2">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;书店创立于2001年，经过十几年的努力打拼，由小到大，逐步发展成为初具规模，各类设施齐全的图书售销市场的旗舰店。书店地处石家庄市，总营业面积四百多平方，装修精致的营业大厅，数万种图书品种齐全摆放有序。书店除经营各类图书、学辅用书的批发销售外，还经营学生所用的各类学习机以及各种电子产品和各种学习文具、体育用品和办公用品。
+						热情周到的服务，诚信为本的经营，良好舒适的购物环间，赢得了广大顾客，也赢来了良好的社会口碑。书店已成为家喻户晓，人人皆知购书人的第一选择。真正成为图书销售市场的品牌和旗舰店。</h3>
+					<img class="tp1 hidden-xs" src="../images1/youcetu.jpeg">
+				</div>
+				<button type="button"><a href="location.html">进一步了解>>></a></button>
+			</div>
+			<div class="service  g_mb clearfix">
+				<div class="g_cw_a">
+					<ul class="list">
+						<li class="a">
+							<a href="location.html" target="_blank">
+								<img class="se_ct_a" src="../images1/jd_a.svg">
+								<img class="se_ct_b" src="../images1/jd_b.svg">
+								<p>商务住宿</p>
+							</a>
+						</li>
+						<li class="b">
+							<a href="location.html" target="_blank">
+								<img class="se_ct_a" src="../images1/gb_a.svg">
+								<img class="se_ct_b" src="../images1/gb_b.svg">
+								<p>各地书店</p>
+							</a>
+						</li>
+						<li class="c">
+							<a href="location.html" target="_blank">
+								<img class="se_ct_a" src="../images1/cy_a.svg">
+								<img class="se_ct_b" src="../images1/cy_b.svg">
+								<p>周边餐饮</p>
+							</a>
+						</li>
+						<li>
+							<a href="location.html" target="_blank">
+								<img class="se_ct_a" src="../images1/hy_a.svg">
+								<img class="se_ct_b" src="../images1/hy_b.svg">
+								<p>小自习室</p>
+							</a>
+						</li>
+						<li>
+							<a href="location.html" target="_blank">
+								<img class="se_ct_a" src="../images1/xx_a.svg">
+								<img class="se_ct_b" src="../images1/xx_b.svg">
+								<p>周边娱乐</p>
+							</a>
+						</li>
+						<li>
+							<a class="en" href="location.html" target="_blank">
+								<img class="se_ct_a" src="../images1/dw_a.svg">
+								<img class="se_ct_b" src="../images1/dw_b.svg">
+								<p>书店分布</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="footer">
+
+					<div class="bq g_mt clearfix">
+						<div class="g_cw tb">
+
+							<div class="bq_a">
+								<div class="bt">
+									<h3>网站导航</h3>
+									<div class="xh">
+										<p class="xh_a"></p>
+										<p class="xh_b"></p>
+									</div>
+								</div>
+								<ul class="list right">
+									<li><a href="index.html">书店分布</a></li>
+									<li><a href="index.html">联系我们</a></li>
+								</ul>
+							</div>
+
+							<div class="bq_a">
+								<div class="bt">
+									<h3>联系我们</h3>
+									<div class="xh">
+										<p class="xh_a"></p>
+										<p class="xh_b"></p>
+									</div>
+								</div>
+								<ul class="list width">
+									<li>
+										<p><img class="" src="../images1/4.bmp">咨询热线：123</p>
+									</li>
+									<li>
+										<p><img class="bq_tb" src="../images1/3.bmp">联系地址：123</p>
+									</li>
+									<li>
+										<p><img class="" src="../images1/2.bmp">联系邮箱：123</p>
+									</li>
+								</ul>
+							</div>
+
+
+							<div class="bq_a ne">
+								<div class="bt">
+									<h3>关注我们</h3>
+									<div class="xh">
+										<p class="xh_a"></p>
+										<p class="xh_b"></p>
+									</div>
+								</div>
+								<div class="sm">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<img src="../images1/0315.jpg">
+									<p>扫一扫微信</p>
+								</div>
+							</div>
+
+
+
+							<div class="bq_a no">
+								<p class="top">
+									分享至:
+									<a href=""><img src="../images1/bq_ct_a.png"></a>
+									<a href=""><img src="../images1/bq_ct_b.png"></a>
+									<a href=""><img src="../images1/bq_ct_c.png"></a>
+									<a href=""><img src="../images1/bq_ct_d.png"></a>
+								</p>
+							</div>
+						</div>
+
+						<div class="bq_b">
+							<div class="g_cw">
+								<div class="left">
+									<p>
+										分享至:
+										<a href=""><img src="../images1/bq_ct_a.png"></a>
+										<a href=""><img src="../images1/bq_ct_b.png"></a>
+										<a href=""><img src="../images1/bq_ct_c.png"></a>
+										<a href=""><img src="../images1/bq_ct_d.png"></a>
+									</p>
+								</div>
+								<div class="right">
+									<p>©网站设计课程版权 2021-2121 </p>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+
+				</div>
+				<script type="text/javascript" charset="utf-8">
+					const slideImages = document.querySelectorAll('.slide-in');
+
+					function checkSlide(e) {
+						console.log(e);
+						console.count(e);
+					}
+					window.addEventListener('scroll', debounce(checkSlide));
+					// 滑动页面的底部距离扣除图片一半的高
+					const slideInAt = (window.scrollY + window.innerHeight) - img.height / 2;
+					// 图片底部距离顶端的距离
+					const imgBottom = img.offsetTop + img.height;
+					// 已滑过了图片的一半
+					const isHalfShow = slideInAt > img.offsetTop;
+					// 未完全滑过图片
+					const isNotScrollPast = window.scrollY < imgBottom;
+
+					if (isHalfShow && isNotScrollPast) {
+						img.classList.add('active');
+					} else {
+						img.classList.remove('active');
+					}
+				</script>
+			</div>
+	</body>
+</html>

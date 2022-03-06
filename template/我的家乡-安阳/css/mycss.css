@@ -1,0 +1,63 @@
+#container{
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    left: 10%;
+    top: 0px;
+    border: 1px solid #000;
+    overflow: hidden ;/*可以先将这句注释掉*/
+}
+#list{
+    width: 7000px;
+    height: 600px;
+    position: absolute;
+}
+#list img{
+    width: 1000px;
+    height:600px;
+    float: left;
+}
+#buttons{
+    height: 15px;
+    width: 250px;
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+}
+#buttons span{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #333;
+    float: left;
+    margin-right:25px;
+    cursor: pointer;
+}
+#buttons .on{
+    background: orange;
+}
+.arrow {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    background-color: RGBA(0, 0, 0, .4);
+    color: #fff;
+}
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+#container:hover .arrow {
+    display: block;
+}
+#next{
+    left: 950px;
+}

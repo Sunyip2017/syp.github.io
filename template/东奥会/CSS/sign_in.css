@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 220, 245);
+}
+
+.sign_in {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+    background-color: rgb(27, 112, 209);
+    border-radius: 5px;
+}
+
+.sign_in h2 {
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.sign_in p {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 13px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sign_in input {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.sign_in button {
+    width: 110px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 95px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(120, 220, 245);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign_in>a {
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    text-decoration: none;
+    color: rgb(233, 13, 60);
+}

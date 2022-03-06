@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WBetter - 我们都在变得更好</title>
+		<link rel="stylesheet" type="text/css" href="../css/sign.css" />
+		<script src="../js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="../logo.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<div class="user signBx">
+					<div class="imgBx"><img src="../images1/fendian2.jpg"></div>
+					<div class="formBx">
+						<form action="">
+							<h2>Sign In</h2>
+							<input type="text" name="" placeholder="Username" id="" value="">
+							<input type="password" name="" placeholder="Password" id="" value="">
+							<input type="submit" name="" id="loginstr" value="Login">
+							<a href="index.html">返回主页</a>
+							<p class="signup">Don't have an account ? <a href="#" onclick="toggleForm();">Sign Up</a>
+							</p>
+						</form>
+					</div>
+				</div>
+				<div class="user singupBx">
+					<div class="formBx">
+						<form action="">
+							<h2>Sign Up</h2>
+							<input type="text" name="" placeholder="Username" id="" value="">
+							<input type="email" name="" placeholder="E-mail" id="" value="">
+							<input type="password" name="" placeholder="Create Password" id="" value="">
+							<input type="password" name="" placeholder="Confirm Password" id="" value="">
+							<input type="submit" name="" value="Sign Up">
+							<p class="signup">Already have an account ? <a href="#" onclick="toggleForm();">Sign In</a>
+							</p>
+						</form>
+					</div>
+					<div class="imgBx"><img src="../images1/fendian.jpg"></div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" charset="utf-8">
+			location.herf = "index.html";
+		</script>
+		<script type="text/javascript">
+			var login = document.getElementById("loginstr");
+			login.onClick = function() {
+				location.href = "index.html";
+				console.log("11111");
+			}
+
+			function toggleForm() {
+				var container = document.querySelector('.container');
+				container.classList.toggle('active')
+			}
+		</script>
+
+	</body>
+</html>

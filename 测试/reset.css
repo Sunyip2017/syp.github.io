@@ -1,0 +1,89 @@
+body,html{   
+  -webkit-overflow-scrolling: touch;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 1.5;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+dd {
+  margin-left: 0;
+}
+address {
+  font-style: normal;
+}
+article {
+  padding: 0;
+}
+/* 引用 */
+blockquote {
+  margin: 0;
+}
+figure {
+  margin: 0;
+}
+hr{
+    margin-top:0;
+    margin-bottom:0;
+    border-color:#999;
+}
+abbr[title] {
+    text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  border:none;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+}
+/* 表单项分组 */
+fieldset {
+  border:none
+}
+
+img{
+  display: block;
+  height:auto;
+}
+input{
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance:none;
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type=number]{
+  -moz-appearance:textfield;
+}
+
