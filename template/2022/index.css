@@ -20,11 +20,11 @@ img,video{
     margin-right:15px;
     flex:0 0 20px;
     height:22px;
-    background: url(../images/left002.png) no-repeat center center;
+    background: url(./images/left002.png) no-repeat center center;
     background-size: cover;
 }
 .title{
-    margin:0 auto 36px;
+    margin:40px auto 36px;
     display:flex;
     align-items: center;
 }
@@ -35,7 +35,7 @@ img,video{
     line-height: 50px;
     text-align: center;
     text-indent: 30px;
-    background: url(../images/center001.png) no-repeat 0 0;
+    background: url(./images/center001.png) no-repeat 0 0;
     background-size: cover;
     font-size:24px;
     font-weight: bold;
@@ -44,19 +44,19 @@ img,video{
 .title .left{
     flex: 1;
     height:2px;
-    background:url(../images/left001.png) no-repeat 0 0;
+    background:url(./images/left001.png) no-repeat 0 0;
     background-size: cover;
 }
 .title .right{
     flex: 1;
     height:2px;
-    background:url(../images/right001.png) no-repeat 0 0;
+    background:url(./images/right001.png) no-repeat 0 0;
     background-size: cover;
 }
 .line {
     margin-bottom:35px;
     height:2px;
-    background: url(../images/left003.png) no-repeat 0 0;
+    background: url(./images/left003.png) no-repeat 0 0;
 }
 .container {
     margin:0 auto;
@@ -87,7 +87,7 @@ img,video{
     margin-bottom:22px;
 }
 .article .list span{
-    font-size:18px;
+    font-size:20px;
     color:#333;
 }
 .article-left{
@@ -101,6 +101,7 @@ img,video{
     padding:0 10px;
     height:525px;
     overflow-y: auto;
+    font-size:18px;
 }
 .paragraph>*{
     margin-bottom:30px;
